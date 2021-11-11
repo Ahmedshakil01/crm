@@ -1,0 +1,83 @@
+#slider{
+	z-index:100000;
+	position: relative;
+	cursor:pointer;
+}
+   
+#formarea{ 
+	width:445px;
+	height:auto;
+	position:absolute; 
+	right:0px; 
+	bottom:0;
+	float:left;
+}
+
+#formbody{ 
+	width:400px;
+	height:auto;
+	right:0px; 
+	bottom:0;
+	border:1px solid #d8d8d8;
+	margin-left:45px;
+	padding:20px 40px;
+	border-radius:3px;
+	box-shadow: 0 0 8px gray;
+	background:#fff;
+	float:left;
+}
+
+#sidebars{
+	width: auto;
+    height: auto;
+    float: left;
+    z-index: 100000;
+    top: 60%;
+	right: 0;
+    transform: rotate(-90deg) translate(0, -100%);
+	transform-origin: 100% 0;
+	position: fixed;
+	cursor: pointer;
+	/*-ms-transform: rotate(-90deg); 
+	transform: rotate(-90deg);*/
+}
+
+.sidebarscont{
+    z-index: 100000;
+	cursor: pointer;
+	padding: 5px;
+	color: #000;
+	font-size:12px;
+	border: 1px solid #000;
+	border-bottom:none;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	background:#fff;
+}
+.sidebarscont i{
+    color:#990000;
+	font-size:13px;
+}
+#sidebars1{
+	position:absolute;
+	top:100px;
+	box-shadow: 0 0 8px gray;
+	cursor:pointer;
+}
+
+#leftsidebar{
+	width:45px;
+	top:20%;
+	z-index:100000;
+	left:0;
+	position:fixed;
+	background:#fff;
+	height:auto;
+	float:left;
+}
+#sidebars2{
+	position:absolute;
+	top:100px;
+	box-shadow: 0 0 8px gray;
+	cursor:pointer;
+}

@@ -1,0 +1,175 @@
+.menubg {
+    width: 100%;
+    height: auto;
+    background: #0DB14B;
+    float: left;
+    position: relative;
+    box-shadow: #ccc 0 3px 2px -2px;
+    z-index: 0;
+    margin-bottom: 10px;
+}
+.sidebars {
+    display: none;
+}
+.megamenu {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+.megamenu ul {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    z-index: 1;
+}
+.megamenu ul li {
+    display: inline;
+    list-style: none;
+}
+.megamenu ul li a {
+    display: inline;
+    list-style: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    float: left;
+    padding: 10px 15px;
+}
+.megamenu ul li a i {
+    color: #fff;
+    margin: 3px 0 0 3px;
+}
+.megamenu .dropdown {
+    float: left;
+    overflow: hidden;
+    display: none;
+    width: 90%;
+    height: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    padding: 0;
+    box-shadow: 0 3px 3px #ccc;
+    border-top: 1px solid #ccc;
+    z-index: 999;
+}
+.megamenu .submenus:hover .dropdown {
+    float: left;
+    overflow: hidden;
+    display: inline;
+    z-index: 999999999;
+}
+.megamenu .dropdown .menucolumn {
+    width: 19%;
+    height: 100%;
+    float: left;
+}
+.megamenu .dropdown h2 {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 5px;
+    padding: 0;
+    font-size: 18px;
+    color: #333;
+}
+.megamenu .dropdown ul {
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    margin: 0;
+    display: inline;
+    float: left;
+}
+.megamenu .dropdown ul li {
+    display: block;
+    list-style: none;
+}
+.megamenu .dropdown ul li a {
+    width: 100%;
+    display: inline;
+    list-style: none;
+    color: #222;
+    font-size: 12px;
+    font-weight: 400;
+    float: left;
+    padding: 5px;
+}
+.megamenu .dropdown ul li a i {
+    color: #999;
+    margin: 3px 0 0 3px;
+}
+.sidebarMenus {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #414141;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+.sidebarMenus .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    margin: 10px;
+    float: left;
+    color: #fff;
+}
+.sidebarMenus ul {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    display: inline;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.sidebarMenus ul li {
+    width: 100%;
+    height: auto;
+    float: left;
+    display: inline;
+    list-style: none;
+}
+.sidebarMenus ul li a {
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    text-decoration: none;
+}
+.sidebarMenus ul li a i {
+    float: right;
+    text-align: right;
+    font-weight: 400;
+}
+.sidebarMenus ul li a:hover {
+    background: #eaeaea;
+    color: #000;
+    text-decoration: none;
+}
+#mainwrapper {
+    transition: margin-right 0.5s;
+}
+@media screen and (max-height: 450px) {
+    .sidebarMenus {
+        padding-top: 15px;
+    }
+}
